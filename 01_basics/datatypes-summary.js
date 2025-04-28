@@ -29,5 +29,33 @@ const myFunc = function() {
     console.log("Hello World");
 }
 
-console.log(typeof bigNumber);
+// console.log(typeof bigNumber);
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive) , Heap (Non - Primitive)
+
+let myYoutubeName = "hiteshchoudharydotcom";
+
+let anotherName = myYoutubeName;
+anotherName = "chaiaurcode";
+
+console.log(myYoutubeName);
+console.log(anotherName);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne;
+
+console.log(userOne);
+console.log(userTwo);
+
+userTwo.email = "hitesh@google.com";
+
+console.log(userOne);
+console.log(userTwo);
 
